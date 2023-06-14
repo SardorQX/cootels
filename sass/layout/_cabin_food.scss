@@ -1,0 +1,22 @@
+.cabin_food{
+    @include padding;
+    &__card{
+        @include flex(space-between);
+        gap: 12.6rem;
+        row-gap: 3.2rem;
+        h2{
+            @include font_1(3.6rem, 600, 150%);
+            color:$primary_color;
+        }
+        p{
+            @include font_2;
+            color: $second_color;
+            margin-top: 2.4rem;
+            line-height: 150%;
+        }
+        &:last-child{
+            flex-direction: row-reverse;
+            margin-top: 3.2rem;
+        }
+    }
+}
