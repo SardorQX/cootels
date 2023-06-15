@@ -1,0 +1,35 @@
+.testemonial{
+    @include padding;
+
+    text-align: center;
+    h2{
+        @include font_h2;
+        
+    }
+    img{
+        margin: 6.2rem 0 4.4rem 0;
+    }
+    p{
+        @include font_1;
+        color: $second_color;
+    }
+    h3{
+        @include font_1(2rem,500,150%);
+        margin: 4rem 0 2.6rem 0;
+    }
+    span{
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: $acc_down_bg;
+        margin-right: 1rem;
+        margin: 0.3rem 1.25rem 0.3rem 0;
+    }
+    span:hover{
+        margin: 0 1rem 0 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: $acc_up_bg;
+    }
+}

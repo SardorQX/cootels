@@ -185,3 +185,286 @@ button {
   flex-direction: row-reverse;
   margin-top: 3.2rem;
 }
+
+.rooms__info {
+  padding: 8rem 0;
+  text-align: center;
+}
+.rooms__info h2 {
+  font-size: 3.2rem;
+  line-height: 5.4rem;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #192252;
+}
+.rooms__info p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin: 2.4rem 0 3.2rem 0;
+  color: #848FAC;
+}
+.rooms__info button {
+  padding: 1.6rem 3.2rem;
+  background-color: #0e1734;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+
+.rooms__cards {
+  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 2.4rem;
+}
+.rooms__cards .card__img {
+  margin-bottom: 3.2rem;
+}
+.rooms__cards .card__info h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  color: #192252;
+}
+.rooms__cards .card__info p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin: 2.4rem 0 3.2rem 0;
+  color: #848FAC;
+}
+.rooms__cards .card__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.4rem;
+}
+.rooms__cards .card__link a {
+  color: #192252;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.contact__box {
+  padding: 8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact__box .contact__box__info {
+  width: 50%;
+}
+.contact__box .contact__box__info span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: #192252;
+}
+.contact__box .contact__box__info h2 {
+  font-size: 3.2rem;
+  line-height: 5.4rem;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #192252;
+  color: #192252;
+}
+.contact__box .contact__box__info p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin: 2.4rem 0 3.2rem 0;
+  color: #848FAC;
+}
+.contact__box .contact__box__info div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+}
+.contact__box .contact__box__info div button {
+  padding: 1.6rem 3.2rem;
+  background-color: #0e1734;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+.contact__box .contact__box__info div p {
+  color: #0e1734;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.accordion {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+.accordion__card {
+  box-shadow: 0px 0px 50px 5px #848FAC;
+  border-radius: 4px;
+  padding: 3.6rem 3rem;
+  width: 100%;
+}
+.accordion__card p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: #848FAC;
+  margin-top: 2.4rem;
+}
+.accordion__card .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+.accordion__card label svg {
+  transition: all 0.5s linear;
+}
+.accordion__card input {
+  display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+label h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  color: #192252;
+}
+label div {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #FFECE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:checked ~ .content {
+  max-height: 15rem;
+}
+
+input:checked ~ label div {
+  background-color: #FF620A;
+}
+input:checked ~ label div svg {
+  transform: rotate(180deg);
+}
+input:checked ~ label div path {
+  stroke: #fff;
+}
+
+.testemonial {
+  padding: 8rem 0;
+  text-align: center;
+}
+.testemonial h2 {
+  font-size: 3.2rem;
+  line-height: 5.4rem;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #192252;
+}
+.testemonial img {
+  margin: 6.2rem 0 4.4rem 0;
+}
+.testemonial p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: #848FAC;
+}
+.testemonial h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 4rem 0 2.6rem 0;
+}
+.testemonial span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #FFECE2;
+  margin-right: 1rem;
+  margin: 0.3rem 1.25rem 0.3rem 0;
+}
+.testemonial span:hover {
+  margin: 0 1rem 0 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #FF620A;
+}
+
+footer {
+  background-color: #192252;
+  padding: 8rem 0;
+}
+
+.cootels {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cootels h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.9rem;
+  color: #fff;
+}
+.cootels p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: #848FAC;
+  margin: 1.3rem 0 3.6rem 0;
+}
+.cootels .social_network {
+  width: 40%;
+}
+.cootels .social_network div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+}
+
+.menu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: start;
+  justify-content: s;
+}
+.menu a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: #848FAC;
+  margin: 2.4rem 0;
+}
+.menu ul li:first-child > a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: #fff;
+  letter-spacing: 0.3rem;
+}

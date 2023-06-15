@@ -29,3 +29,12 @@
     color: $thirt_color;
     border-radius:0.4rem;
 }
+
+@mixin font_h2{
+    font-size: 3.2rem;
+    line-height: 5.4rem;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: $primary_color;
+    
+}

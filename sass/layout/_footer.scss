@@ -1,0 +1,46 @@
+footer{
+    background-color: $primary_color;
+    @include padding;
+}
+
+.cootels{
+    @include flex;
+    h3{
+        @include font_1(3.2rem,700,3.9rem); 
+        color: $thirt_color;
+
+    }
+    p{
+        @include font_1;
+        color: $second_color;
+        margin: 1.3rem 0 3.6rem 0;
+    }
+    .social_network{
+        width: 40%;
+        div{
+            @include flex;
+            gap: 2.5rem;
+        }
+    }
+}
+
+.menu{
+    width: 60%;
+    @include flex(space-around);
+    align-items: start;
+    justify-content: s;
+    a{
+        @include font_2;
+        color: $second_color;
+        margin: 2.4rem 0;
+    }
+    ul{
+        li{
+            &:first-child>a{
+                @include font_1(1.6rem,700,1.9rem);
+                color: $thirt_color;
+                letter-spacing: 0.3rem;
+            }
+        }
+    }
+}
